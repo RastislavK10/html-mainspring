@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tool Box Checkout</title>
+</head>
+<body>
+    <form action="" method="get">
+        <p>
+            <label for="firstName">
+             First Name:
+            </label>
+            <input type="text" name="firstName" id="firstName" placeholder="First Name" required>
+        </p>
+        <p>
+            <label for="lastName">
+             Last Name:
+            </label>
+            <input type="text" name="lastName" id="lastName" placeholder="Last Name" required>
+        </p>
+        <p>
+            <label for="toolbox">
+                Which tool box are you using today?
+            </label>
+            
+            <input type="text" name="toolbox" id="toolbox" placeholder="Tool Box" required>
+        </p>
+        
+        <p>
+            <label for="additionalUser">
+            Who is using the tool box with you?
+            </label>
+            <input type="text" name="additionalUser" id="additionalUser" placeholder="Additional User" required>
+        </p>
+        <p>
+            <label for="inspection">
+             Did you perform a thorough inspection of all tools being checked out?
+            </label>
+            <input type="text" name="inspection" id="inspection" placeholder="Yes or No" required>
+    </p>
+    <p>
+        <label for="comments">
+            Notes:
+        </label><br>
+        <textarea name="comments" id="comments" cols="50" rows="5"></textarea>
+    </p>
+    <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

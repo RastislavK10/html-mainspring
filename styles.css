@@ -1,0 +1,44 @@
+body {
+    background-color: #2b2c58;
+    background-image: url(/mainspring-generator-drawing.svg) ;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: underline #f35d00;
+    font-size: 75px;
+    margin-bottom: 200px;
+  }
+  
+  button {
+    color: #01a9f7;
+    color: #2b2c58;
+    background-color: rgb(235, 234, 234);
+    border: solid 5px #f35d00;
+    border-radius: 25px;
+    font-family: sans-serif;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    line-height: 250px;
+    text-decoration: underline white 4px; 
+    text-decoration:  #f35d00 4px;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  
+  div {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+  }
+  
+  button:hover {
+    border: solid white 5px;
+    text-decoration: underline #f35d00 4px;
+    background-color: #2b2c58;
+    color: white;
+    
+  }
