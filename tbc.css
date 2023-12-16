@@ -11,3 +11,17 @@ h1 {
     font-size: 75px;
     margin-bottom: 200px;
   }  
+
+ div{
+  background-color: #2b2c58;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ } 
+
+form {
+  color: white;
+  font-family: sans-serif;
+  
+}
