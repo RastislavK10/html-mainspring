@@ -78,6 +78,14 @@ transition: .5s;
 
 }
 
-.checkbox {
-  margin-bottom: 10px;
+#inspection{
+  margin-top: 10px;
+  margin-bottom: 25px;
+  margin-right: 5px;
+}
+
+#comments {
+  border: 2px solid #fff;
+  margin-top: 5px;
+  margin-bottom: 30px;
 }
