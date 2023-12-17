@@ -1,6 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
 body {
     background-color: #2b2c58;
     background-image: url("https://www.gexaenergy.com/content/gexaenergy/us/en/large-business/renewables-reliability/energy-reliability/mainspring/_jcr_content/root/responsivegrid/gexacontainer_copy_1/gexacontainer_copy_2/image.coreimg.svg/1631562990308/mainspring-technical-drawing.svg");
+    color: white;
+    
   }
 
 h1 {
@@ -12,16 +21,63 @@ h1 {
     margin-bottom: 200px;
   }  
 
- div{
+ .form-container {
+  
   background-color: #2b2c58;
   display: flex;
   justify-content: center;
   align-items: center;
-
+  flex-direction: column;
+  width: 700px;
+  height: 700px;
+  border-radius: 20px;
+  margin: 0 auto;
  } 
 
-form {
-  color: white;
-  font-family: sans-serif;
+.input-box {
+  position: relative;
+  width: 490px;
+  margin: 30px 0;
+  border-bottom: 2px solid #fff;
   
+} 
+
+.input-box label {
+position: absolute;
+top: 50%;
+left: 5px;
+transform: translateY(-50%);
+font-size: 1em;
+pointer-events: none;
+transition: .5s;
+}
+
+.input-box input {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: #fff;
+  padding: 0 35px 0 5px;
+}
+
+.input-box .icon  {
+  position: absolute;
+  right: 8px;
+  color: #fff;
+  font-size: 1.2em;
+  line-height: 57px;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+
+  top: -5px;
+
+}
+
+.checkbox {
+  margin-bottom: 10px;
 }
