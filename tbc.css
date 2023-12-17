@@ -90,6 +90,12 @@ transition: .5s;
   margin-bottom: 30px;
 }
 
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 button {
   width: 50%;
   height: 40px;
