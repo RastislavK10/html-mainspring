@@ -18,8 +18,12 @@ h1 {
     font-family: sans-serif;
     text-decoration: underline #f35d00;
     font-size: 75px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
   }  
+
+label {
+  left: 0;
+}
 
  .form-container {
   
@@ -85,6 +89,7 @@ transition: .5s;
   margin-top: 10px;
   margin-bottom: 25px;
   margin-right: 5px;
+  
 }
 
 #comments {
@@ -93,6 +98,9 @@ transition: .5s;
   margin-bottom: 40px;
   background: transparent;
   border-radius: 10px;
+  color: #fff;
+  padding: 2px 5px;
+  resize: none;
 }
 
 .button-container {
@@ -118,3 +126,8 @@ button:hover {
   background-color: #f35d00;
   color: #fff;
 }
+
+input[type='checkbox'] {
+  accent-color: #f35d00;
+}
+
