@@ -21,9 +21,7 @@ h1 {
     margin-bottom: 150px;
   }  
 
-label {
-  left: 0;
-}
+
 
  .form-container {
   
@@ -42,7 +40,6 @@ label {
 
 .input-box {
   position: relative;
-  width: 490px;
   margin: 30px 0;
   border-bottom: 2px solid #fff;
   
@@ -129,5 +126,9 @@ button:hover {
 
 input[type='checkbox'] {
   accent-color: #f35d00;
+}
+
+input: -internal-autofill-selected {
+  background-color: none;
 }
 
