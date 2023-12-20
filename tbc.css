@@ -128,7 +128,5 @@ input[type='checkbox'] {
   accent-color: #f35d00;
 }
 
-input: -internal-autofill-selected {
-  background-color: none;
-}
+
 
