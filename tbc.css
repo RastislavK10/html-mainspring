@@ -31,23 +31,37 @@ h1 {
   align-items: center;
   flex-direction: column;
   width: 600px;
-  height: 700px;
+  height: 750px;
   border-radius: 20px;
   margin: 0 auto;
   border: 2px solid #f35d00;
   backdrop-filter: blur(8px);
 } 
 
+#toggle-container {
+  text-align: center;
+}
 
+input.toggle { 
+  -webkit-appearance: none;
+  position: relative; 
+  width: 120px;
+  height: 40px;
+  background-color: #fff; 
+  border-radius: 20px;
+  vertical-align: sub;
+  
+}
 
+.check-out {
+  font-size: 40px;
+  margin-right: 8px;
+}
 
-
-
-
-
-
-
-
+.check-in {
+  font-size: 40px;  
+  margin-left: 8px;
+}
 
 .input-box {
   position: relative;
@@ -135,9 +149,25 @@ button:hover {
   color: #fff;
 }
 
-input[type='checkbox'] {
-  accent-color: #f35d00;
+ input[type='checkbox'] {
+  accent-color: #f35d00; 
+  
 }
 
+input.toggle::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 0;
+  background-color: #f35d00;
+  border-radius: 20px;
+  transform: scale(0.9);
+  transition: .7s ease all;
+}
 
-
+input:checked[type="checkbox"]::before {
+  background-color: #f35d00;
+  left: 80px;
+  
+}
