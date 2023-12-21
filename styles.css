@@ -1,6 +1,11 @@
 body {
   background-color: #2b2c58;
   background-image: url("https://www.gexaenergy.com/content/gexaenergy/us/en/large-business/renewables-reliability/energy-reliability/mainspring/_jcr_content/root/responsivegrid/gexacontainer_copy_1/gexacontainer_copy_2/image.coreimg.svg/1631562990308/mainspring-technical-drawing.svg");
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-family: sans-serif;
 }
 
 h1 {
@@ -27,6 +32,7 @@ button {
   text-decoration: #f35d00 4px;
   font-size: 25px;
   font-weight: 700;
+  margin-bottom: 20px;
 }
 
 div {
@@ -40,4 +46,9 @@ button:hover {
   text-decoration: underline #f35d00 4px;
   background-color: #2b2c58;
   color: white;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
 }
