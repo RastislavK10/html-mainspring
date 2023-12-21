@@ -167,8 +167,7 @@ input.toggle::before {
 }
 
 input:checked[type="checkbox"]::before {
-  background-color: #f35d00;
-  background-color: greenyellow;
+  background-color: #01a9f7;
   left: 80px;
   
 }
