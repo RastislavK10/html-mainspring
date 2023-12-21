@@ -1,6 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
 body {
     background-color: #2b2c58;
     background-image: url("https://www.gexaenergy.com/content/gexaenergy/us/en/large-business/renewables-reliability/energy-reliability/mainspring/_jcr_content/root/responsivegrid/gexacontainer_copy_1/gexacontainer_copy_2/image.coreimg.svg/1631562990308/mainspring-technical-drawing.svg");
+    color: white;
+    
   }
 
 h1 {
@@ -9,5 +18,163 @@ h1 {
     font-family: sans-serif;
     text-decoration: underline #f35d00;
     font-size: 75px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
   }  
+
+
+
+.form-container {
+  
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+  height: 750px;
+  border-radius: 20px;
+  margin: 0 auto;
+  border: 2px solid #f35d00;
+  backdrop-filter: blur(8px);
+} 
+
+#toggle-container {
+  text-align: center;
+}
+
+input.toggle { 
+  -webkit-appearance: none;
+  position: relative; 
+  width: 120px;
+  height: 40px;
+  background-color: #ffffff; 
+  border-radius: 20px;
+  vertical-align: sub;
+  
+}
+
+.check-out {
+  font-size: 40px;
+  margin-right: 8px;
+}
+
+.check-in {
+  font-size: 40px;  
+  margin-left: 8px;
+}
+
+.input-box {
+  position: relative;
+  margin: 30px 0;
+  border-bottom: 2px solid #fff;
+  
+} 
+
+.input-box label {
+position: absolute;
+top: 50%;
+left: 5px;
+transform: translateY(-50%);
+font-size: 1em;
+pointer-events: none;
+transition: .5s;
+
+}
+
+.input-box input {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: #fff;
+  padding: 0 35px 0 5px;
+}
+
+.input-box .icon  {
+  position: absolute;
+  right: 8px;
+  color: #fff;
+  font-size: 1.2em;
+  line-height: 57px;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+
+  top: -5px;
+
+}
+
+#inspection{
+  margin-top: 10px;
+  margin-bottom: 25px;
+  margin-right: 5px;
+  
+}
+
+#comments {
+  border: 2px solid #fff;
+  margin-top: 5px;
+  margin-bottom: 40px;
+  background: transparent;
+  border-radius: 10px;
+  color: #fff;
+  padding: 2px 5px;
+  resize: none;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 50%;
+  height: 40px;
+  background-color: #f35d00;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 1em;
+  color: #fff;
+  font-weight: 600; 
+}
+
+button:hover {
+  background-color: #f35d00;
+  color: #fff;
+}
+
+ input[type='checkbox'] {
+  accent-color: #f35d00; 
+  
+}
+
+input.toggle::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 0;
+  background-color: #f35d00;
+  border-radius: 20px;
+  transform: scale(0.9);
+  transition: .7s ease all;
+}
+
+input:checked[type="checkbox"]::before {
+  background-color: #01a9f7;
+  left: 80px;
+  
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000000s ease-in-out 0s; -webkit-text-fill-color: #fff;
+}
