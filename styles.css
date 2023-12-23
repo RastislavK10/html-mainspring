@@ -41,7 +41,7 @@ button {
   margin-bottom: 20px;
 }
 
-div {
+.buttons {
   display: flex;
   justify-content: center;
   gap: 150px;
