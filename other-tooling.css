@@ -39,6 +39,7 @@ h1 {
   border: 2px solid #f35d00;
   backdrop-filter: blur(8px);
   margin-bottom: 20px;
+  caret-color: #ffffff;
 } 
 
 #toggle-container {
